@@ -1,0 +1,262 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  color: #8b8b8b;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  margin: 60px 0;
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+  margin: 60px 80px;
+  text-align: left;
+} 
+}
+
+.happy-traveler {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 640px) {
+  .happy-traveler {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .happy-traveler {
+    width: 425px;
+  }
+}
+
+.happy-travel-text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+}
+
+@media screen and (min-width: 640px) {
+  .happy-travel-text {
+    margin: 30px 0 40px 0;
+  }
+}
+
+.buttons {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+}
+
+.button {
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 11px 30px;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 640px) {
+  .button {
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 11px 30px;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+  }
+
+}
+
+.prvni {
+  background-color: #407bff;
+  margin-bottom: 5px;
+}
+
+.druhy {
+  background-color: #8b8b8b;
+}
+
+.buttons li {
+  margin: 30px 0px;
+}
+
+.ramecek {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px #407bff1f;
+  width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 640px) {
+  .sikonou {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  
+  .ramecek {
+    display: block;
+    flex: 0 0 calc((100% - 40px) / 3);
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .sikonou {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ramecek {
+    display: block;
+    flex: 0 0 calc((100% - 40px) / 3);
+    max-width: 170px;
+  }
+}
+
+.ikona {
+  width: 45px;
+  margin: 20px;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 640px) {
+  .ikona {
+    margin: 40px 70px 20px 70px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .ikona {
+    margin: 40px 55px 20px 55px;
+  }
+}
+
+.velky-text {
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 640px) {
+  .velky-text {
+    margin: 17px 109px 40px 109px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .velky-text {
+    margin: 17px 0;
+  }
+}
+
+.text {
+  font-size: 13px;
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 640px) {
+  .text {
+    margin: 20px 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .text {
+    margin: 0 15px 40px 15px;
+    text-align: center;
+  }
+}
+
+
+.nadpis {
+  margin: 50px 0;
+  color: black;
+}
+
+@media screen and (min-width: 640px) {
+  .nadpis {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .nadpis {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .web-jedna {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .web-dva {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .web-tri {
+    display: flex;
+    align-items: center;
+  }
+
+  .levy {
+    margin-right: 30px;
+  }
+
+  .pravy {
+    margin-left: 30px;
+  }
+}
+
+
+
